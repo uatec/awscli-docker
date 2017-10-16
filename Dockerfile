@@ -6,7 +6,7 @@ ENV AWS_CLI_VERSION 1.11.131
 RUN apk update && apk upgrade
 
 # Git
-RUN apk add --no-cache bash git opensshn
+RUN apk add --no-cache bash git openssh
 
 RUN apk add --no-cache jq
 
